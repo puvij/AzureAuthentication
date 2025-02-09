@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{A402CA7D-F9CE-4CDC-86F4-E580E9BCB6D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway", "Gateway", "{1B07FAEF-F0DC-47EE-B0BE-140F219EBDDC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{BD51D975-FBBD-4806-B7B9-C4DB7EBB55CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{3E318507-ECDF-431E-A118-6F31F120973A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.AuthAPI", "Mango.AuthAPI\Application.AuthAPI.csproj", "{807D5B63-EB15-4F1A-944E-CB0DC05AC150}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "Application.Azure.UI", "Mango.Azure.UI\Application.Azure.UI.esproj", "{8EA12699-138A-43D5-BA5E-815BCA48E664}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{807D5B63-EB15-4F1A-944E-CB0DC05AC150}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{807D5B63-EB15-4F1A-944E-CB0DC05AC150}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{807D5B63-EB15-4F1A-944E-CB0DC05AC150}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{807D5B63-EB15-4F1A-944E-CB0DC05AC150}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EA12699-138A-43D5-BA5E-815BCA48E664}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EA12699-138A-43D5-BA5E-815BCA48E664}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EA12699-138A-43D5-BA5E-815BCA48E664}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8EA12699-138A-43D5-BA5E-815BCA48E664}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EA12699-138A-43D5-BA5E-815BCA48E664}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EA12699-138A-43D5-BA5E-815BCA48E664}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{807D5B63-EB15-4F1A-944E-CB0DC05AC150} = {3E318507-ECDF-431E-A118-6F31F120973A}
+		{8EA12699-138A-43D5-BA5E-815BCA48E664} = {A402CA7D-F9CE-4CDC-86F4-E580E9BCB6D6}
+	EndGlobalSection
+EndGlobal

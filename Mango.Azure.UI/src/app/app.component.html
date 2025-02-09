@@ -1,0 +1,14 @@
+<mat-toolbar color="primary">
+  <a class="title" href="/">{{ title }}</a>
+
+  <div class="toolbar-spacer"></div>
+  <a mat-button *ngIf="loginDisplay" [routerLink]="['profile']">Profile</a> &nbsp;&nbsp;  
+  <button mat-raised-button *ngIf="!loginDisplay" (click)="login()">Login</button>
+  <button mat-raised-button *ngIf="loginDisplay" (click)="logout()">Logout</button>
+
+</mat-toolbar>
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
+
+
